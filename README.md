@@ -19,5 +19,5 @@
   
   4,获取绑定设备列表 确实车辆绑定参数  api/v1/doctor/ecgGroup接口
   
-  5,车辆 放空车和暂停调用字典接口
+  5,车辆 放空车和暂停调用字典接口  api/dict/getDefineData
   
