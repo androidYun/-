@@ -17,3 +17,5 @@
   
   3，同步任务状态接口 可以增加一个 vehicleCode
   
+  4,获取绑定设备列表 确实车辆绑定参数  api/v1/doctor/ecgGroup接口
+  
