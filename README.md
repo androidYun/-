@@ -2,18 +2,18 @@
 
 ### 一，绑定和解绑接口
 
-  1,登录接口 api/user/login
+  1,登录接口 api/user/login           <font color=#DC143C size=72>(已解决)</font>
   
-  2，退出登录接口api/user/logout
+  2，退出登录接口api/user/logout             <font color=#DC143C size=72>(已解决)</font>
   
-  3，获取车辆是否绑定信息  api/user/getUserState
+  3，获取车辆是否绑定信息  api/user/getUserState         <font color=#DC143C size=72>(已解决)</font>
   
-  4，绑定车辆接口 api/user/startWork
+  4，绑定车辆接口 api/user/startWork                <font color=#DC143C size=72>(已解决)</font>
 ### 二，车辆接口
 
   1,车辆操作接口 驶向现场 到达医院 防空车 等等接口    api/vehicle/pauseVehicle
   
-  2，获取车辆信息接口  api/vehicle/getVehicleState
+  2，获取车辆信息接口  api/vehicle/getVehicleState           <font color=#DC143C size=72>(已解决)</font>
   
   3，同步任务状态接口 可以增加一个 vehicleCode
   
