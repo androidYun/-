@@ -1,0 +1,12 @@
+### 维持socket 长连接
+
+1，定时发消息是否有回应，如果没有回应 说明链接失败
+2，动态监听网络 然后检测网络是否正在链接
+3，
+
+
+
+### 保证上传信息service和定位service 通讯 
+
+
+https://blog.csdn.net/maiduoudo/article/details/78780089
