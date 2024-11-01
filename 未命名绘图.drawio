@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.8.1">
-  <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
-    <mxGraphModel dx="1400" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.2">
+  <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="医生端登录逻辑">
+    <mxGraphModel dx="1050" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,7 +13,7 @@
         <mxCell id="5" value="验证设备和用户是否存在" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
           <mxGeometry x="240.5" y="250" width="159" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="KEAZZh82ltmncQ3XJhVD-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6" target="KEAZZh82ltmncQ3XJhVD-59">
+        <mxCell id="KEAZZh82ltmncQ3XJhVD-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="6" target="KEAZZh82ltmncQ3XJhVD-59" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6" value="设备是否同一分站" style="shape=mxgraph.flowchart.decision;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
@@ -28,7 +28,7 @@
         <mxCell id="9" style="entryX=0.5;entryY=0;entryPerimeter=0;fontStyle=1;strokeColor=#003366;strokeWidth=1;html=1;" parent="1" source="5" target="6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KEAZZh82ltmncQ3XJhVD-55" value="存在" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9">
+        <mxCell id="KEAZZh82ltmncQ3XJhVD-55" value="存在" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="9" vertex="1" connectable="0">
           <mxGeometry x="-0.2067" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -57,7 +57,7 @@
             <mxPoint x="320" y="640" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KEAZZh82ltmncQ3XJhVD-64" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="17">
+        <mxCell id="KEAZZh82ltmncQ3XJhVD-64" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="17" vertex="1" connectable="0">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-2" y="-17" as="offset" />
           </mxGeometry>
@@ -80,7 +80,7 @@
             <mxPoint x="321" y="920" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KEAZZh82ltmncQ3XJhVD-76" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="23">
+        <mxCell id="KEAZZh82ltmncQ3XJhVD-76" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="23" vertex="1" connectable="0">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-3" y="-6" as="offset" />
           </mxGeometry>
@@ -94,7 +94,7 @@
             <mxPoint x="100" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KEAZZh82ltmncQ3XJhVD-75" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="25">
+        <mxCell id="KEAZZh82ltmncQ3XJhVD-75" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="25" vertex="1" connectable="0">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1" y="-17" as="offset" />
           </mxGeometry>
@@ -183,7 +183,7 @@
         <mxCell id="51" value="提示注册设备/&lt;div&gt;和用户所属分站，调整成一致&lt;/div&gt;" style="shape=mxgraph.flowchart.paper_tape;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
           <mxGeometry x="450" y="377" width="150" height="81" as="geometry" />
         </mxCell>
-        <mxCell id="KEAZZh82ltmncQ3XJhVD-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="51" target="2">
+        <mxCell id="KEAZZh82ltmncQ3XJhVD-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="51" target="2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="650" y="400" />
@@ -191,20 +191,20 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="KEAZZh82ltmncQ3XJhVD-59" value="不是同一分站&lt;div&gt;提示需要调整一致&lt;/div&gt;" style="shape=mxgraph.flowchart.paper_tape;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="1">
+        <mxCell id="KEAZZh82ltmncQ3XJhVD-59" value="不是同一分站&lt;div&gt;提示需要调整一致&lt;/div&gt;" style="shape=mxgraph.flowchart.paper_tape;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="378" width="150" height="81" as="geometry" />
         </mxCell>
-        <mxCell id="KEAZZh82ltmncQ3XJhVD-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="KEAZZh82ltmncQ3XJhVD-59" target="2">
+        <mxCell id="KEAZZh82ltmncQ3XJhVD-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="KEAZZh82ltmncQ3XJhVD-59" target="2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="100" y="75" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="KEAZZh82ltmncQ3XJhVD-62" value="账号是否在&lt;div&gt;其他设备登录&lt;/div&gt;" style="shape=mxgraph.flowchart.decision;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="1">
+        <mxCell id="KEAZZh82ltmncQ3XJhVD-62" value="账号是否在&lt;div&gt;其他设备登录&lt;/div&gt;" style="shape=mxgraph.flowchart.decision;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
           <mxGeometry x="272" y="510" width="98" height="57" as="geometry" />
         </mxCell>
-        <mxCell id="KEAZZh82ltmncQ3XJhVD-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.017;entryY=0.28;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="15" target="2">
+        <mxCell id="KEAZZh82ltmncQ3XJhVD-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.017;entryY=0.28;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="15" target="2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="650" y="550" />
@@ -213,55 +213,55 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="KEAZZh82ltmncQ3XJhVD-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KEAZZh82ltmncQ3XJhVD-65" target="KEAZZh82ltmncQ3XJhVD-66">
+        <mxCell id="KEAZZh82ltmncQ3XJhVD-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="KEAZZh82ltmncQ3XJhVD-65" target="KEAZZh82ltmncQ3XJhVD-66" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KEAZZh82ltmncQ3XJhVD-69" value="正确" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KEAZZh82ltmncQ3XJhVD-68">
+        <mxCell id="KEAZZh82ltmncQ3XJhVD-69" value="正确" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="KEAZZh82ltmncQ3XJhVD-68" vertex="1" connectable="0">
           <mxGeometry x="-0.1829" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KEAZZh82ltmncQ3XJhVD-65" value="密码是否正确" style="shape=mxgraph.flowchart.decision;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="1">
+        <mxCell id="KEAZZh82ltmncQ3XJhVD-65" value="密码是否正确" style="shape=mxgraph.flowchart.decision;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
           <mxGeometry x="271" y="640" width="98" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="KEAZZh82ltmncQ3XJhVD-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KEAZZh82ltmncQ3XJhVD-66">
+        <mxCell id="KEAZZh82ltmncQ3XJhVD-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="KEAZZh82ltmncQ3XJhVD-66" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="510" y="818.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KEAZZh82ltmncQ3XJhVD-71" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KEAZZh82ltmncQ3XJhVD-70">
+        <mxCell id="KEAZZh82ltmncQ3XJhVD-71" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="KEAZZh82ltmncQ3XJhVD-70" vertex="1" connectable="0">
           <mxGeometry x="-0.0035" y="4" relative="1" as="geometry">
             <mxPoint x="2" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KEAZZh82ltmncQ3XJhVD-66" value="密码是否是123456&lt;div&gt;、或者未登录过&lt;/div&gt;" style="shape=mxgraph.flowchart.decision;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="1">
+        <mxCell id="KEAZZh82ltmncQ3XJhVD-66" value="密码是否是123456&lt;div&gt;、或者未登录过&lt;/div&gt;" style="shape=mxgraph.flowchart.decision;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
           <mxGeometry x="271" y="790" width="98" height="57" as="geometry" />
         </mxCell>
-        <mxCell id="KEAZZh82ltmncQ3XJhVD-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KEAZZh82ltmncQ3XJhVD-67">
+        <mxCell id="KEAZZh82ltmncQ3XJhVD-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="KEAZZh82ltmncQ3XJhVD-67" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="460" y="948.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KEAZZh82ltmncQ3XJhVD-67" value="当前设备是否在&lt;div&gt;其他账号登录且在任务重&lt;/div&gt;" style="shape=mxgraph.flowchart.decision;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="1">
+        <mxCell id="KEAZZh82ltmncQ3XJhVD-67" value="当前设备是否在&lt;div&gt;其他账号登录且在任务重&lt;/div&gt;" style="shape=mxgraph.flowchart.decision;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
           <mxGeometry x="271" y="920" width="98" height="57" as="geometry" />
         </mxCell>
-        <mxCell id="KEAZZh82ltmncQ3XJhVD-72" value="跳入修改&lt;div&gt;密码页面/修改密码&lt;/div&gt;" style="shape=mxgraph.flowchart.document;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="1">
+        <mxCell id="KEAZZh82ltmncQ3XJhVD-72" value="跳入修改&lt;div&gt;密码页面/修改密码&lt;/div&gt;" style="shape=mxgraph.flowchart.document;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
           <mxGeometry x="510" y="790" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="KEAZZh82ltmncQ3XJhVD-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="KEAZZh82ltmncQ3XJhVD-72" target="2">
+        <mxCell id="KEAZZh82ltmncQ3XJhVD-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="KEAZZh82ltmncQ3XJhVD-72" target="2" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="650" y="75" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="KEAZZh82ltmncQ3XJhVD-74" value="提示密码错误/忘记密码" style="shape=mxgraph.flowchart.document;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="1">
+        <mxCell id="KEAZZh82ltmncQ3XJhVD-74" value="提示密码错误/忘记密码" style="shape=mxgraph.flowchart.document;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
           <mxGeometry x="480" y="645" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="KEAZZh82ltmncQ3XJhVD-78" value="任务中/只能当前账号登录&lt;div&gt;其他账号不能进行登录&lt;/div&gt;" style="shape=mxgraph.flowchart.document;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="1">
+        <mxCell id="KEAZZh82ltmncQ3XJhVD-78" value="任务中/只能当前账号登录&lt;div&gt;其他账号不能进行登录&lt;/div&gt;" style="shape=mxgraph.flowchart.document;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
           <mxGeometry x="460" y="913.5" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="KEAZZh82ltmncQ3XJhVD-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6" target="51">
+        <mxCell id="KEAZZh82ltmncQ3XJhVD-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="6" target="51" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
